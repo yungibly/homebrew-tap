@@ -15,6 +15,9 @@ Or in one step: `brew install yungibly/tap/cubby`.
 | --- | --- |
 | [`cubby`](https://github.com/yungibly/cubby) | Keeps copies of your dotfiles in a store that mirrors your home directory. |
 | [`clibrightness`](https://github.com/yungibly/clibrightness) | Controls ASUS PA249CGV brightness over native USB-C on Apple Silicon macOS. |
+| [`lsa`](https://github.com/yungibly/lsa) | ls, augmented: colors, icons, and inline image thumbnails. |
+
+Install lsa with `brew install yungibly/tap/lsa`.
 
 Install clibrightness with `brew install yungibly/tap/clibrightness` (macOS Tahoe
 or later, Apple Silicon).
