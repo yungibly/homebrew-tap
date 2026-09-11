@@ -1,29 +1,29 @@
 class Lsa < Formula
   desc "ls, augmented: colors, icons, and inline image thumbnails"
   homepage "https://github.com/yungibly/lsa"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     depends_on macos: :sonoma
 
     on_arm do
-      url "https://github.com/yungibly/lsa/releases/download/v0.2.0/lsa-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "69248c06355c8652adcd9df64681f85310125f7f1d0b475739c280808b2157db"
+      url "https://github.com/yungibly/lsa/releases/download/v0.3.0/lsa-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ca850adfc65c290da94d28fbca641dd57f5ab72d67fa78051a1cec09d32f2888"
     end
     on_intel do
-      url "https://github.com/yungibly/lsa/releases/download/v0.2.0/lsa-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d67af1c88a55bf3f55346043a1af0eaf7f8b5251c19130a8b388905f6d709dde"
+      url "https://github.com/yungibly/lsa/releases/download/v0.3.0/lsa-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0b964549070d418f5e57c7dd4a861b27952b46a6a6fce279b0e8227a40486cc4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yungibly/lsa/releases/download/v0.2.0/lsa-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "32562b8fc2d4e18b103c4c0260c526a2852a9bdfeaa673bedf257e82352b4d08"
+      url "https://github.com/yungibly/lsa/releases/download/v0.3.0/lsa-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4ae935cbc092a4b7df930a6a17a4052377ac2080123eb656c7e1deecbb266ec4"
     end
     on_intel do
-      url "https://github.com/yungibly/lsa/releases/download/v0.2.0/lsa-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0626d8c38b9878e3b86694b6b67a39eaa231d5ec37b5a4d907cd2246a3c6ac8e"
+      url "https://github.com/yungibly/lsa/releases/download/v0.3.0/lsa-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "34e4427c9cd606cc732e799f931b86671b0e6abdbef6638f4ad6fcb2889c579a"
     end
   end
 
