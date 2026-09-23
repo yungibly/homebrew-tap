@@ -1,24 +1,24 @@
 class Eymi < Formula
   desc "Terminal Markdown editor with live preview and familiar shortcuts"
   homepage "https://github.com/yungibly/eymi"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yungibly/eymi/releases/download/v0.1.0/eymi-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a68a564e9513ffef8b570bd7146e12fc65ed4845fd8456666d72f3a21d3443b1"
+      url "https://github.com/yungibly/eymi/releases/download/v0.2.0/eymi-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "71283d08aee87f8ee418e2ed120c85fc5dbf1310fef729cb3f849b9367ebda49"
     end
     on_intel do
-      url "https://github.com/yungibly/eymi/releases/download/v0.1.0/eymi-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eec7ceaab88a839d1552782dd74a768d9d20554c0a015c6a9c6fb459cc35a7e7"
+      url "https://github.com/yungibly/eymi/releases/download/v0.2.0/eymi-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7f5d7a35460150be1adab14bc69425e1fde6d25217920372cfeef646cfd16800"
     end
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/yungibly/eymi/releases/download/v0.1.0/eymi-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "0bd3e192f96bc27416a5f2f954ce9f609f8678cca7f7c11ef45014cded74df10"
+    url "https://github.com/yungibly/eymi/releases/download/v0.2.0/eymi-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "12ade81c5ce097713415d870f459819b4dddc7d4cb2023f1a776e0ce8fd64001"
   end
 
   def install
