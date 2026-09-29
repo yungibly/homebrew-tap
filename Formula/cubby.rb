@@ -1,28 +1,28 @@
 class Cubby < Formula
   desc "Keep copies of your dotfiles in a store that mirrors your home directory"
   homepage "https://github.com/yungibly/cubby"
-  version "2.1.0"
+  version "3.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yungibly/cubby/releases/download/v2.1.0/cubby-2.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "203a408951b280cd70a8eacdd262a53e220d0a11d235425d4f0efed4c46455e1"
+      url "https://github.com/yungibly/cubby/releases/download/v3.0.0/cubby-3.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "55d1c21e630ed136e45e5ad775f52393fdd64cfb688028179d4020e46bb197a7"
     end
     on_intel do
-      url "https://github.com/yungibly/cubby/releases/download/v2.1.0/cubby-2.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f548df6b570055212f3f579dbb69618b3e5fe3ee366caa83749c3440ce403376"
+      url "https://github.com/yungibly/cubby/releases/download/v3.0.0/cubby-3.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7e6bb58dfaacbb89dc720e9a727d10c6862287b7adab6fe6b2ee9686abb7f396"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yungibly/cubby/releases/download/v2.1.0/cubby-2.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5e5d3e09c4a6ce6386826e8a100b13680e1ea3ded3b5c1bc7e58c8e04aec53d5"
+      url "https://github.com/yungibly/cubby/releases/download/v3.0.0/cubby-3.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "89133b11bb5b27dec44f493a2f03dac74c50a1e89d4a4ae5fe886771cfd6b420"
     end
     on_intel do
-      url "https://github.com/yungibly/cubby/releases/download/v2.1.0/cubby-2.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4554c93e8ba83f0c40f1cee081b03e840e958946e0a85a192277a6032da71c7e"
+      url "https://github.com/yungibly/cubby/releases/download/v3.0.0/cubby-3.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4a9de2523967bebe90fc799429bd054c2db6903f060168d94e7eeee6c387d8d4"
     end
   end
 
