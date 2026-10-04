@@ -2,29 +2,29 @@
 class Promptly < Formula
   desc "Procedural generative art for your zsh prompt"
   homepage "https://github.com/yungibly/promptly"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/yungibly/promptly/releases/download/v0.7.0/promptly-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1eabb7ccc914b0adbcff7820ea502fb3331dab91bde18a2f0587027d257266fe"
+      url "https://github.com/yungibly/promptly/releases/download/v0.8.0/promptly-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2d3242bf5efb55f8cfa411622d1072dd5ee3494db494a91a296b05219bf4d204"
     end
     on_intel do
-      url "https://github.com/yungibly/promptly/releases/download/v0.7.0/promptly-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3a1cb9775b0f24a39e066ffbe886f5c7c8053e98ebee0029468cf8ece498876e"
+      url "https://github.com/yungibly/promptly/releases/download/v0.8.0/promptly-0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4db9945f504432bb7b2a6eb3d9a3bbd059177acf0860143a7669c355b527053c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yungibly/promptly/releases/download/v0.7.0/promptly-0.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b7f38a81208ed6606a1db18eb1a09b7bcef5f9681e4d5ff6e00ecd118b97218"
+      url "https://github.com/yungibly/promptly/releases/download/v0.8.0/promptly-0.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f2c084b26b046aedfa5e6e15f1549f421b45129cb3e6cdaaab4269e57966cea7"
     end
     on_intel do
-      url "https://github.com/yungibly/promptly/releases/download/v0.7.0/promptly-0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a1b9423341a0d1a1811c9bc474dbbefb9c15639731a9a4883a38d8f9a02c8abf"
+      url "https://github.com/yungibly/promptly/releases/download/v0.8.0/promptly-0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2bfac206b1a518d2142d2c4a449f12beaf1501326b616088e784c0c86009d7df"
     end
   end
 
