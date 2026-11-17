@@ -16,9 +16,9 @@ Or in one step: `brew install yungibly/tap/cubby`.
 | [`cubby`](https://github.com/yungibly/cubby) | Keeps copies of your dotfiles in a store that mirrors your home directory. |
 | [`clibrightness`](https://github.com/yungibly/clibrightness) | Controls ASUS PA249CGV brightness over native USB-C on Apple Silicon macOS. |
 | [`lsa`](https://github.com/yungibly/lsa) | ls, augmented: colors, icons, and inline image thumbnails. |
-| [`eymi`](https://github.com/yungibly/eymi) | Terminal Markdown editor with live preview, familiar controls, and 624 built-in themes. |
+| [`pica`](https://github.com/yungibly/pica) | Small terminal text editor in the nano and micro family, with Markdown rendered as you write. |
 
-Install eymi with `brew install yungibly/tap/eymi`.
+Install pica with `brew install yungibly/tap/pica`.
 
 Install lsa with `brew install yungibly/tap/lsa`.
 
