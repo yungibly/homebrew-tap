@@ -1,24 +1,24 @@
 class Pica < Formula
   desc "Small terminal text editor with micro-style keys and live Markdown"
   homepage "https://github.com/yungibly/pica"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yungibly/pica/releases/download/v0.3.0/pica-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "33cd5c0461661d6276a3ac44250b7b13c29edfd1c951aead3bde6e32ea732fd7"
+      url "https://github.com/yungibly/pica/releases/download/v0.3.1/pica-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "52215253aca11a6afeed57a9e899ab5663f7c701fd2d522a72827510fee4f9e0"
     end
     on_intel do
-      url "https://github.com/yungibly/pica/releases/download/v0.3.0/pica-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "06e5e2091b82d4b52e7d28d49638e36ae971cc8d75cf764afa56a6df85f789c0"
+      url "https://github.com/yungibly/pica/releases/download/v0.3.1/pica-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9e28519a3f501201a0a85b93a425ef6ca851a78cdd97118103e8d3ed3dd0567d"
     end
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/yungibly/pica/releases/download/v0.3.0/pica-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "90a78141f2bad4e970f6c87efc80594aaf529f3ce50ea656e683a4936f1844c9"
+    url "https://github.com/yungibly/pica/releases/download/v0.3.1/pica-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "53788db1640014770c6aa01899490bd3676ec80539aae3bec986a26711ae1c5a"
   end
 
   def install
