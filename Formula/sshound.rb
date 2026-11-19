@@ -2,29 +2,29 @@
 class Sshound < Formula
   desc "Play audio files from a remote shell and hear them on your own machine"
   homepage "https://github.com/yungibly/sshound"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     depends_on macos: :sonoma
 
     on_arm do
-      url "https://github.com/yungibly/sshound/releases/download/v0.1.0/sshound-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4753cdd265f5b288807d5ee53447746fde8f3c25973ee7ad7f804eb65b7aaaee"
+      url "https://github.com/yungibly/sshound/releases/download/v0.2.0/sshound-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f2d2d0fcc81737c54818c49ced09c69ab4f97d806ca957c67e01f7f6c2850d2c"
     end
     on_intel do
-      url "https://github.com/yungibly/sshound/releases/download/v0.1.0/sshound-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "42d7dca9be0dfcbdad4dc8c14ae63b9a82819d4dedc58de2d6466c76d7fec62c"
+      url "https://github.com/yungibly/sshound/releases/download/v0.2.0/sshound-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "64166b645802e94b510ac681cb754bd76555091d4c289b83cf5ac1b4c14704ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yungibly/sshound/releases/download/v0.1.0/sshound-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b50f9a2a63f89fd386963666f2ce5c4fb4e6a03a64f3276b39568781617049ae"
+      url "https://github.com/yungibly/sshound/releases/download/v0.2.0/sshound-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c79ea7bdd1664e8f20935ec8ada51135a9b94b8db4aafecd96a671c55678441f"
     end
     on_intel do
-      url "https://github.com/yungibly/sshound/releases/download/v0.1.0/sshound-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1b77c5531e5dca826230ae27e6acc7fe50c8f228a8eb24e0f0a6b4976c6376b7"
+      url "https://github.com/yungibly/sshound/releases/download/v0.2.0/sshound-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "198ff260df7cabb78d4acd8ec9d6abcd9f30f77d1d8bb3b6abde7c2cdbbf8bb3"
     end
   end
 
@@ -50,8 +50,8 @@ class Sshound < Formula
     begin
       sleep 2
       TCPSocket.open("127.0.0.1", port) do |socket|
-        socket.write "sshound1\x04brew"
-        assert_equal "sshound1", socket.read(8)
+        socket.write "sshound2\x04brew"
+        assert_equal "sshound2", socket.read(8)
       end
     ensure
       Process.kill("TERM", pid)
